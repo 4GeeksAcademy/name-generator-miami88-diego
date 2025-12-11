@@ -7,10 +7,10 @@ import "./assets/img/4geeks.ico";
 window.onload = function () {
   //write your code here
   const domainList = document.querySelector("#list-of-domains")
-  let pronoun = ["the", "our"];
-  let adj = ["great", "big"];
-  let noun = ["jogger", "racoon"];
-  let domain = ["com", "info", "biz", "in", "net"];
+  let pronoun = ["the", "our", "my", "best"];
+  let adj = ["great", "big", "super", "awesome", "last"];
+  let noun = ["jogger", "racoon", "pizza", "developer", "of"];
+  let domain = ["com", "info", "biz", "in", "net", "us", "io", "app", "dev", "us"];
 
   
   for (let i = 0; i < pronoun.length; i++) {
